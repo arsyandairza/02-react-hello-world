@@ -10,7 +10,7 @@ Kelas : 3C
  3. Jangan lupa push project dan jawaban Anda melalui VS Code dengan pesan commit "Week 02: belajar react"
  4. Cobalah buat project react lainnya dengan menggunakan framework Remix dan Gatsby. Ini tidak perlu di push, cukup screenshot dan jelaskan perbedaannya diantara ketiga framework tersebut (termasuk Next.js) di file README nomor 1.
 
- ## Jawab
+ ## Jawab (2)
  ### Langkah 2: Buat project baru
  ![Output](docs/ss1.png)
 ```
@@ -80,7 +80,7 @@ Soal 2: Pada struktur project tersebut, jelaskan kegunaan folder dan file masing
  - tsconfig.json
 ```
 
-## Jawab
+## Jawab (2)
  - Git : Folder ini digunakan oleh sistem kontrol versi Git untuk menyimpan semua informasi terkait dengan repositori Git Anda. Folder ini berisi metadata, log, konfigurasi, dan riwayat perubahan yang terjadi dalam repositori Git.
 
  - node_modules : Folder ini berisi semua paket dan dependensi yang dibutuhkan oleh proyek tersebut. Ketika Anda menginstal paket-paket menggunakan npm atau yarn, paket-paket tersebut akan diunduh dan disimpan di dalam folder
@@ -114,7 +114,7 @@ Soal 2: Pada struktur project tersebut, jelaskan kegunaan folder dan file masing
 ```
  Soal 3: Ketika Anda telah berhasil mengganti teks tersebut, Anda tidak perlu menjalankan perintah npm run dev dan tidak juga diperlukan me-reload halaman di browser. Tiba-tiba perubahan itu tampil, Mengapa terjadi demikian? Jelaskan!
 ```
-## Jawab
+## Jawab (2)
 
 Ada beberapa kemungkinan mengapa perubahan teks pada project Next.js langsung tampil tanpa perlu menjalankan **npm run dev** atau **me-reload** halaman di browser:
 
@@ -129,3 +129,43 @@ Ada beberapa kemungkinan mengapa perubahan teks pada project Next.js langsung ta
  3. Static Site Generation (SSG):
 
  Jika Anda menggunakan SSG, Next.js akan membangun situs web statis Anda terlebih dahulu. Saat Anda mengubah teks, Next.js akan membangun kembali situs web statis dengan teks baru.
+
+## Jawab (4)
+- Perbedaan Next.js, Remix, dan Gatsby.
+
+## Remix
+![Output](docs/ssremix2.png)
+
+-  **Saat Anda membuat proyek Remix, Anda perlu untuk memilih target pemasangan Anda. Anda dapat memasang aplikasi Remix ke semua hosting Node.js atau serverless dengan menggunanakan atau menuliskan sebuah adaptor.**
+
+- **Fitur utama:**
+1. Routing dinamis
+2. Server-Side Rendering (SSR)
+3. Lebih sedikit boilerplate dibandingkan Next.js
+4. Performa lebih tinggi
+5. Lebih mudah dipelajari
+
+## Tampilan Websites
+![Output](docs/ssremix1.png)
+- Perbedaan Tampilan Websites **Remix** dengan **React.Js**  :
+
+**Remix** : Cocok untuk website yang membutuhkan performa tinggi, navigasi dinamis yang halus, dan SEO optimal.
+
+**React.js** : Cocok untuk website yang kompleks dengan banyak fitur dan membutuhkan banyak plugin dan komunitas yang besar.
+
+## Gatsby
+![Output](docs/ssgatsby1.png)
+- **Gatsby adalah framework React untuk situs web berbasis sistem manajemen konten cepat. Ekosistem plugin yang dimiliki serta lapisan data GraphQL dari Gatsby dapat memudahkan Anda dalam melakukan integrasi konten, API, dan layanan ke dalam satu situs web.**
+
+## Tampilan Websites
+![Output](docs/ssgatsby2.png)
+- **Gatsby**:
+
+- Tampilan statis: Website Gatsby umumnya memiliki tampilan statis karena kontennya dibuat beforehand.
+- Interaksi terbatas: Interaksi pengguna di website Gatsby umumnya terbatas karena sifatnya yang statis.
+
+ **Remix**:
+
+- Tampilan dinamis: Website Remix dapat memiliki tampilan dinamis dengan navigasi yang lebih halus dan animasi.
+- Interaksi lebih kaya: Remix memungkinkan interaksi pengguna yang lebih kaya dan kompleks.
+ 
