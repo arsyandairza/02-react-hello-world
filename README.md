@@ -169,3 +169,11 @@ Ada beberapa kemungkinan mengapa perubahan teks pada project Next.js langsung ta
 - Tampilan dinamis: Website Remix dapat memiliki tampilan dinamis dengan navigasi yang lebih halus dan animasi.
 - Interaksi lebih kaya: Remix memungkinkan interaksi pengguna yang lebih kaya dan kompleks.
  
+ ## Perbedaan Menyeluruh
+ Perbedaan
+
+- Remix: Dirancang untuk kinerja dan skalabilitas. Ideal untuk situs web dinamis dan aplikasi web. Memberikan pengalaman developer yang sederhana dan terstruktur.
+
+- Gatsby: Berfokus pada performa dan SEO. Memanfaatkan SSG untuk menghasilkan situs web statis. Cocok untuk situs web statis dan blog. Memiliki kurva belajar yang lebih kompleks dibandingkan Remix.
+
+- Next.js: Menawarkan fleksibilitas dan banyak pilihan fitur. Cocok untuk berbagai jenis situs web dan aplikasi web. Memiliki komunitas besar dan banyak dokumentasi.
